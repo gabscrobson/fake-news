@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 475px) {
+    b {
+        display: block;
+    }
+}
+
+::selection {
+    color: white;
+    background-color: #9F0D0C;
+}
+
+body {
+    font-size: 1.3em;
+}
+
+section {
+    width: 90%;
+    max-width: 750px;
+    margin: 50px auto 50px auto;
+}
+
+#red {
+    background-color:#9F0D0C;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+
+#fake {
+    color: #9F0D0C;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+a {
+    color: white;
+}
+
+/* ======= CABEÇALHO ======= */
+header {
+    background-color: #9F0D0C;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+/* ======= SECTION 1 ======= */
+#img1 {
+    width: 100%;
+    max-height: 350px;
+    margin-top: 20px;
+}
+
+#p1 {
+    margin-top: 20px;
+}
+
+/* ======= SECTION 2 ======= */
+#h22 {
+    color: white;
+}
+
+#secimg {
+    width: fit-content;
+    margin: auto;
+}
+
+#img2, #img3, #img4 {
+    vertical-align: top;
+    margin: 10px;
+    width: 90%;
+}
+
+#img2 {
+    max-width: 350px;
+}
+
+#img3 {
+    max-width: 500px;
+}
+
+#img4 {
+    max-width: 300px;
+}
+
+/* ======= SECTION 3 ======= */
+#sec3 {
+    padding-bottom: 20px;
+}
+
+#img5 {
+    width: 100%;
+    max-height: 350px;
+    margin-top: 20px;
+}
+
+/* ======= FOOTER ======= */
+footer {
+    background-color: #9F0D0C;
+    color: white;
+    padding: 20px 10px 20px 10px;
+    width: 100%;
+    margin-top: -50px;
+}
+
+.footP {
+    font-weight: bolder;
+    display: inline-block;
+    margin: 0px 5px 0px 5px;
+    padding: 3px;
+    width: fit-content;
+    height: 100%;
+}
+
+.footP:hover {
+    background-color: white;
+    color: #9F0D0C;
+}
+
+
+
+
